@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Pompiere|Amiko|Rambla|Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <title>Know Tirth</title>
+</head>
+<body id="test-id">
+    <nav>
+        <ul class="name-nav">
+            <li class="my-name">Tirth <span>Patel</span></li>
+        </ul>
+        <ul class="nav-content">
+            <a href="#Home"><li>Home</li></a>
+            <a href="#About"><li>About</li></a>
+            <a href="#Education"><li>Education</li></a>
+            <a href="#Skills"><li>Skills</li></a>
+            <a href="#Contact"><li>Contact Me</li></a>
+        </ul>
+    </nav>
+   
+    <section class="landing-section" id="Home">
+        <div class="intro-div">
+            <span class="welcome-para">Welcome to my website</span>
+            <span class="webdev-para">I am </span><span class="webdev-para change"> </span>
+            <div class="social-icon-div">
+                <a target="_blank" href="https://www.linkedin.com/in/tirth-patel-3b0669204/"><i class="social-icon fab fa-linkedin fa-2x"></i></a>
+                <a target="_blank" href="https://twitter.com/tiirth__"><i class="social-icon fab fa-twitter fa-2x"></i></a>
+                <a target="_blank" href="https://instagram.com/tiirth__"><i class="social-icon fab fa-instagram fa-2x"></i></a>
+                <a target="_blank" href="https://www.facebook.com/people/Tirth-Patel/100009828094165/"><i class="social-icon fab fa-facebook fa-2x"></i></a>
+                <a target="_blank" href="https://github.com/Tirth22"><i class="social-icon fab fa-github fa-2x"></i></a>
+
+        </div>
+    </section>
+
+    <section class="about-me" id="About">
+        <div class="abt-me-div">
+            <div class="avatar-img">
+                <img src="./assets/Tirth.png" alt="avatar-image">
+            </div>
+            <div class="abt-me-txt">
+                <h1 class="about-heading">About <span>Me</span></h1>
+                <p class="abt-me-content">
+                    A pre-final year student at VIT, Vellore. I am Chairperson for Indian Society for Technical Education, a technical student chapter at VIT. To keep the competitive drive alive, I have participated few hackathons and competitions. Have secured good results in few of them. I am an aspiring student who want to evolve into a capable professional by being associated with an organization that will challenge me to push my boundaries and allow me to use my education and skills in a way that is mutually beneficial for my employer and me to achieve a sustainable growth in life.
+                </p><br>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="Education">
+        <div class="edu-heading-parent">
+            <h1 class="edu-heading">My <span>Education</span></h1>
+        </div>
+        <div class="HSC-cert">
+            <div class="hsc-card">
+                <div class="img-parent-div">
+                    <div class="schl-photo">
+                    </div>
+                </div>
+                <h1>
+                    Divine Buds School
+                </h1>
+                <h1>
+                    Maninagar, Ahmedabad
+                </h1>
+                <br>
+
+                <div class="para-parent-div">
+                    <p>
+                        Gujarat State Education Board
+                </div>
+
+                <div class="mark-percentage">
+                    <div class="percentage-parent-div">
+                        <p>SSC</p>
+                        <div class="percent-parent">
+                            <div class="percentage-count"></div>
+                        </div>
+                        <p>90.16%</p>
+                    </div>
+                    <div class="percentage-parent-div">
+                        <p>HSC</p>
+                        <div class="percent-parent-hsc">
+                            <div class="percentage-count-hsc"></div>
+                        </div>
+                        <p>77.7%</p>
+                    </div>
+                </div>
+
+                <div class="years">
+                    <p>Year of Passing SSC:<span> 2018</span></p>
+                    <p>Year of Passing HSC:<span> 2020</span></p>
+                </div>
+
+            </div>
+        </div>
+        <div class="college-cert">
+            <div class="hsc-card">
+                <div class="img-parent-div">
+                    <div class="clg-photo">
+                    </div>
+                </div>
+                <h1>
+                    Vellore Institute of Technology
+                </h1>
+                <div class="para-parent-div">
+                    <p>
+                        Vellore Campus
+                </div>
+
+                <div class="mark-percentage">
+                    <div class="percentage-parent-div">
+                        <p>CGPA <span>(until 1st sem)</span></p>
+                        <div class="percent-parent-college">
+                            <div class="percentage-count-college"></div>
+                        </div>
+                        <p>8.96</p>
+                    </div>
+                    <div class="percentage-parent-div">
+                        <p>Branch:<span> Computer Science and Engineering</span></p>
+                    </div>
+                </div>
+
+                <div class="years">
+                    <p>Year of Enrollment:<span> 2020</span></p>
+                    <p class="big-para">Expected Year of Graduation:<span> 2024</span></p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="skills" id="Skills">
+        <div class="skill-names">
+            <div class="skill-sec-text">
+                <h1>Skills</h1>
+                <p>
+                    “Programming is a skill best acquired by practice and example rather than from books.”
+                    <br>
+                    — Alan Turing
+                </p><br>
+                <p>Click on any of the following skills:</p>
+
+                <div class="skill-selection">
+                    <div class="skill-image-divs" id="skill-image-div">
+                        <div class="skill-image one" onclick="progressDisp1()"></div>
+                        <div class="skill-image two" onclick="progressDisp2()"></div>
+                        <div class="skill-image three" onclick="progressDisp3()"></div>
+                        <div class="skill-image four" onclick="progressDisp4()"></div>
+                        <div class="skill-image five" onclick="progressDisp5()"></div>
+                        <div class="skill-image six" onclick="progressDisp6()"></div>
+                        <div class="skill-image seven" onclick="progressDisp7()"></div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+        <div class="project-names">
+            <div class="project-card">
+                <p>
+                    This is a skill  record selector. It'll help you know about my skills  possessed by me in an interactive way.
+                </p>
+
+                <div class="level-count" id="level-count">
+                    <div class="level-word">
+                        <p>
+                            Beginner
+                        </p>
+                        <p>
+                            Intermediate
+                        </p>
+                        <p>
+                            Proefficient
+                        </p>
+                    </div>
+                    <div class="progress-parent">
+                        <div id="first" class="progress first" >
+                        </div>
+                    </div>
+
+                    <div class="projects-certs">
+                        <!-- ||||||||||||||||||HTML|CSS|JS||||||||||||||||||| -->
+                        <div class="project-list" id="htmlcssjs">
+                            <p class="project-name">
+                                I have been working on HTML, CSS and JS for Web Development. I have developed many projects using them which includes this webpage.
+                            </p>
+                        </div>
+                        <!-- ||||||||||||||||React||||||||||||| -->
+                        <div class="project-list" id="react">
+                                <p class="project-name">
+                                    I have been exploring ReactJS for Web Development. I have developed a few projects using it.
+                                </p>
+                        </div>
+                        <!-- ||||||||||Python||||||||||||||||||| -->
+                        <div class="project-list" id="python">
+                            <p class="project-name">
+                                I have been exploring Python since the start of my unicersity. Using it for Data Structures and Algorithms, Data Analysis etc., I have a good command over it.
+                            </p>
+                        </div> 
+                        <!-- ||||||||||||||||||||Node||||||||||||||||||| -->
+                        <div class="project-list" id="node">
+                            <p class="project-name">
+                                I have been exploring NodeJS for backend development.I am learning it using online resources and class notes.
+                            </p>
+                        </div>
+                        <!-- |||||||||||||||||||||mysql|||||||||||||||||| -->
+                        <div class="project-list" id="mysql">
+                            <p class="project-name">
+                                I have been exploring MySQL for database management. I have done a good amount of practice for SQL in university course.
+                            </p>
+                        </div>
+                        <!-- ||||||||||||||||Java||||||||||||||||| -->
+                        <div class="project-list" id="java">
+                            <p class="project-name">
+                                Started exploring Java as a programming language. Later on, started using it for basic app development.
+                            </p>
+                        </div>
+                        <!-- ||||||||||||||||||||C++|||||||||||||||||||| -->
+                        <div class="project-list" id="cpp-prog">
+                            <p class="project-name">
+                                First used it for learning Object Oriented Programming. Explored Data Structures and used it for Competitive programmming.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="Contact">
+
+        <h1>Contact <span>Me</span></h1>
+
+        <div class="contact">
+            <div class="contact-image">
+                <img src="./assets/contact-image.png" alt="avatar-image">
+            </div>
+            <div class="contact-form">
+                <form action="https://formsubmit.co/pateltirth.ashvinbhai2020@vitstudent.ac.in" method="post">
+                    <div>
+                        <input type="text" class="name-input" placeholder="name" name="text">
+                    </div>
+                    <input type="email" class="mail-input" placeholder="email" name="email">
+                    <input type="text" class="disc-topic" placeholder="Name of organization(if any)" name="org">
+                    <textarea placeholder = "What's the message?" name="message" class="post-desc" name="msg"></textarea>
+                    <div class="form-btn-div">
+                        <button type="submit" class="form-submit-btn">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    
+    <script src="./index.js"></script>
+</body>
+</html>
